@@ -1,7 +1,9 @@
 const App = () => {
   return (
     <div>
-      <h1>Hello from App</h1>
+      <h1>Welcome to the homepage!</h1>
+      <a href='/Profile'>Profile</a>
+      <a href='/Contact'>Contact</a>
     </div>
   )
 }
