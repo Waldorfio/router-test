@@ -1,8 +1,10 @@
+import {Link} from 'react-router-dom'
+
 const Contact = () => {
     return (
       <div>
         <h1>Contact Info Page!</h1>
-        <a href='/'>Return Home</a>
+        <Link to='/'>Return Home</Link>
       </div>
     );
   };

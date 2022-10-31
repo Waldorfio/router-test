@@ -1,9 +1,11 @@
+import {Link} from 'react-router-dom'
+
 const App = () => {
   return (
     <div>
       <h1>Welcome to the homepage!</h1>
-      <a href='/Profile'>Profile</a>
-      <a href='/Contact'>Contact</a>
+      <Link to='/Profile'>Profile Link</Link>
+      <Link to='/Contact'>Contact Link</Link>
     </div>
   )
 }
